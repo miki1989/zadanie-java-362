@@ -1,3 +1,7 @@
+package Figures2D;
+
+import AbstractClasse.Shape2D;
+
 public class Line2D extends Shape2D {
     private double x;
     private double y;
@@ -50,7 +54,7 @@ public class Line2D extends Shape2D {
     }
 
    /* @Override
-    public String toString(Line2D line) {
+    public String toString(Figures2D.Line2D line) {
         super.toString();
         return "Odcinek wyznaczony przez współrzędne [" + line.getX() + "," +
                 line.getY()+"] ["+line.getX2()+"," + line.getY2()+"] ma długość ";

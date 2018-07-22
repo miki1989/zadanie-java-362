@@ -1,4 +1,8 @@
-public class Rectangle extends GeometricShape{
+package Figures2D;
+
+import AbstractClasse.GeometricShape;
+
+public class Rectangle extends GeometricShape {
     private double length;
     private double width;
 

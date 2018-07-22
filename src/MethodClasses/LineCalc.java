@@ -1,3 +1,7 @@
+package MethodClasses;
+
+import Figures2D.Line2D;
+
 public class LineCalc {
     private Line2D line;
 

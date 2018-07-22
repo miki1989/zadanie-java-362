@@ -1,3 +1,13 @@
+package TestClass;
+
+import AbstractClasse.Shape;
+import Figures2D.Circle;
+import Figures2D.Line2D;
+import Figures2D.Rectangle;
+import Figures3D.Ball;
+import Figures3D.Cube;
+import MethodClasses.ShapeCalculator;
+
 public class Test {
     public static void main(String[] args) {
         Circle circle1 = new Circle(5);

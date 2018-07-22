@@ -1,3 +1,7 @@
+package Figures3D;
+
+import AbstractClasse.Shape3D;
+
 public class Cube extends Shape3D {
     private double side;
 

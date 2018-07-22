@@ -1,3 +1,7 @@
+package Figures2D;
+
+import AbstractClasse.GeometricShape;
+
 public class Circle extends GeometricShape {
     private double radius;
 

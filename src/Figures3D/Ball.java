@@ -1,4 +1,8 @@
-public class Ball extends  Shape3D{
+package Figures3D;
+
+import AbstractClasse.Shape3D;
+
+public class Ball extends Shape3D {
     private double radius;
 
     public Ball(double radius) {

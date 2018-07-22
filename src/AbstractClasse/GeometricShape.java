@@ -1,4 +1,10 @@
-public abstract class GeometricShape extends Shape2D{
+package AbstractClasse;
+
+import AbstractClasse.Shape2D;
+import Figures2D.Circle;
+import Figures2D.Rectangle;
+
+public abstract class GeometricShape extends Shape2D {
 
         public double shapeArea(Circle circle){
             return Math.PI * circle.getRadius() * circle.getRadius();
