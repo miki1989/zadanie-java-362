@@ -48,4 +48,12 @@ public class Line2D extends Shape2D {
     public void setY(double y) {
         this.y = y;
     }
+
+   /* @Override
+    public String toString(Line2D line) {
+        super.toString();
+        return "Odcinek wyznaczony przez współrzędne [" + line.getX() + "," +
+                line.getY()+"] ["+line.getX2()+"," + line.getY2()+"] ma długość ";
+    }
+    */
 }
